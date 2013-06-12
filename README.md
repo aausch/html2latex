@@ -16,13 +16,12 @@ Renders nested tables correctly.
 Supports most international characters (umlats, accents, etc).
 Converts all headers into sections. This can be easily customized.
 Lists of any form.
-Endless configuration thourgh command-line options or an XML config file.
+Configuration through command-line options or an XML config file.
 It is also very easy to extend by writing your own handlers.
 
 Requirements
 ============
 
-All required modules listed below and all of their dependencies can be found here
 html2latex requires the following modules for basic operation:
 
 HTML::Tree - It requires HTML::Parser.
