@@ -82,6 +82,10 @@ use HTML::Latex;
 
 
 my $parser = new HTML::Latex();
+if (not $conffile eq "") {
+    $parser = new HTML::Latex($conffile);
+}
+
 $parser->set_option(\%options);
 $parser->add_package(@packages);
 $parser->add_head(@heads);
